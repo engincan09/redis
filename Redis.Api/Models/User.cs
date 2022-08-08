@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace Redis.Api.Models
+{
+    /// <summary>
+    /// Kullanıcı bilgilerinin tutulduğu sınıftır.
+    /// </summary>
+    public class User
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public short Age { get; set; }
+    }
+}
